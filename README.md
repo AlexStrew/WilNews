@@ -27,3 +27,4 @@ Technology World News (PHP 8.0, MYSQL)
 admin : ****
 
 Feel free to open up issues for feature request, bugs, etc. or contribute.
+
