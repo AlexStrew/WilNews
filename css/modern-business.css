@@ -1,0 +1,275 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  background: #000;
+
+}
+
+
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+    
+    
+  }
+}
+
+a:link{
+    color: #dcb822;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.h2, h2 {
+    color: #e5c51c;
+}
+
+a {
+    color: #eee;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover {
+    color: #dcb822;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.card-header {
+    color: #eee;
+}
+
+.btn {
+    font-weight: bold;
+    background: #dcb822;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    color: #dcb822;
+}
+
+.btn-secondary {
+    color: #1c1c1c;
+    background-color: transparent;
+    border-color: #e5c41d;
+}
+
+
+
+
+
+.btn:hover {
+    background: transparent;
+    color: #eee;
+    border-color: #6c757d;
+}
+
+.btn-primary {
+    color: #1c1c1c;
+    background-color: transparent;
+    border-color: #e5c41d;
+}
+
+.text-white {
+    color: #dcb822 !important;
+}
+.text-white:hover {
+    color: #eee !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #dcb822;
+    background-color: #eee;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  background: #1c1c1c;
+  border-radius: 10px;
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+    background: #1c1c1c;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #eee;
+    background-color: transparent;
+    border: 1px solid #dee2e6;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #eee;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    color: #dcb822 !important;
+}
+
+b, strong {
+    font-weight: bolder;
+    color: #eee !important;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+    background: #1c1c1c;
+    color: #eee;
+    border-radius: 10px;
+}
+
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #1c1c1c;
+    border-radius: .25rem;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+    color: #eee;
+}
+
+.col-md-8 {
+    padding: 10px;
+    border-radius: 10px;
+	-ms-flex: 0 0 66.666667%;
+	flex: 0 0 66.666667%;
+	max-width: 166.666667%;
+	background: #1c1c1c;
+	color: #eee;
+}
+
+.bg-dark {
+  background-color: #1c1c1c !important;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+#divgif {
+  
+
+}
+#divgif img {
+  width: 200px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  
+}
+
+.preloader {
+  /*фиксированное позиционирование*/
+  position: fixed;
+  /* координаты положения */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* фоновый цвет элемента */
+  background: #e0e0e0;
+  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #337ab7;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: -1s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
