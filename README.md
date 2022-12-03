@@ -7,7 +7,7 @@ Technology World News (PHP 8.0, MYSQL)
 
 ![Demo Png](db/demo.png)
 
-> #### Disclaimer: Only works on Windows
+> #### Disclaimer: Only works on Desktop
 
 # Features 🃏
 - An application designed to automate the work of dental staff.
