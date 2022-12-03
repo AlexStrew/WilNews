@@ -16,10 +16,9 @@ Technology World News (PHP 8.0, MYSQL)
 - Have MySQL Database (5.6 or higher)
 
 # How to use ✨a
-1. [Download the newest release.beta (.zip)](https://github.com/AlexStrew/DentalClinic/releases/latest) and extract
-2. Go to DentalClinic/InstallerPackage/InstallerPackage-setupFiles/ and run **InstallerPackage.exe**. The program needs to be run as administrator to install
-3. License key for test is **(1111-1111)**
-4. In SSMS, create a database and name it ArmDental. Restore the database from the file **scriptARM.sql**
+1. [Download the newest release.beta (.zip)](https://github.com/AlexStrew/WilNews/releases/tag/release) and extract
+2. Use Hosting or localhost server
+4. Restore the database from the file **db.sql**
 
 # Default login & pass 📈
 admin : ****
