@@ -5,7 +5,7 @@
 # WilastianNews
 Technology World News (PHP 8.0, MYSQL)
 
-![Demo Png](DentalClinic_y3SEUrKOa7.png)
+![Demo Png](db/demo.png)
 
 > #### Disclaimer: Only works on Windows
 
