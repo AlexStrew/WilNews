@@ -1,7 +1,5 @@
 # wilastian.ru
 
-![](https://img.shields.io/github/repo-size/AlexStrew/WilNews)
-![](https://img.shields.io/tokei/lines/github/AlexStrew/WilNews)
 ![](https://img.shields.io/github/languages/top/AlexStrew/WilNews)
 
 # WilastianNews
