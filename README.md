@@ -10,7 +10,7 @@ Technology World News (PHP 8.0, MYSQL)
 > #### Disclaimer: Only works on Desktop
 
 # Features 🃏
-- An application designed to automate the work of dental staff.
+- An application designed to automate the work of news website.
 
 # Requirements 🎯
 - Have MySQL Database (5.6 or higher)
